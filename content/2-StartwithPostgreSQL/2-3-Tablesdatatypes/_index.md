@@ -66,6 +66,52 @@ From the **PostgreSQL documentation** ,
 
   ![saved table](/images/2/2-3/15.png)
 
+#### Explore Data types
+
+As discussed in the [documentation](https://www.postgresql.org/docs/11/ddl-basics.html) ,
+
+"PostgreSQL includes a sizable set of built-in data types that fit many applications. Users can also define their own data types. Most built-in data types have obvious names and semantics, so we defer a detailed explanation to Chapter 8. Some of the frequently used data types are ``integer`` for whole numbers, ``numeric`` for possibly fractional numbers, ``text`` for character strings, ``date`` for dates, ``time`` for time-of-day values, and ``timestamp`` for values containing both date and time."
+
+{{%expand "1. Numbers" %}}
+You can read more about PostgreSQL number data types [here](https://www.postgresql.org/docs/11/datatype-numeric.html) . Here are few quotes from the documentation:
+
+ The type ``integer`` is the common choice [for whole numbers], as it offers the best balance between range, storage size, and performance.
+ 
+ The type ``numeric`` can store numbers with a very large number of digits. It is especially recommended for storing monetary amounts and other quantities where exactness is required. Calculations with numeric values yield exact results where possible, e.g. addition, subtraction, multiplication. However, calculations on numeric values are very slow compared to the integer types, or to the floating-point types [``real`` and ``double precision``].
+
+ The data types ``smallserial``, ``serial`` and ``bigserial`` are not true types, but merely a notational convenience for creating unique identifier columns (similar to the AUTO_INCREMENT property supported by some other databases).
+{{% /expand%}}
+
+
+{{%expand "2. Character" %}}
+You can read more about PostgreSQL character data types [here](https://www.postgresql.org/docs/11/datatype-character.html) . Here are few quotes from the documentation:
+
+SQL defines two primary character types: ``character varying(n)`` and ``character(n)``, where n is a positive integer. Both of these types can store strings up to n characters (not bytes) in length. ... If the string to be stored is shorter than the declared length, values of type ``character(n)`` will be space-padded.
+
+The notations ``varchar(n)`` and ``char(n)`` are aliases for ``character varying(n)`` and ``character(n)``, respectively.
+
+In addition, PostgreSQL provides the ``text`` type, which stores strings of any length.
+
+There is no performance difference among these three types, apart from increased storage space when using the blank-padded type, and a few extra CPU cycles to check the length when storing into a length-constrained column. While ``character(n)`` has performance advantages in some other database systems, there is no such advantage in PostgreSQL; in fact ``character(n)`` is usually the slowest of the three because of its additional storage costs. In most situations ``text`` or ``character varying`` should be used instead.
+{{% /expand%}}
+
+{{%expand "3. Dates and Times" %}}
+You can read more about PostgreSQL date and time data types [here](https://www.postgresql.org/docs/11/datatype-datetime.html) .
+
+PostgreSQL supports ``date``, ``time``, and ``timestamp`` datatypes. The ``time`` and ``timestamp`` datatypes can be with or without a timezone. The default is without a timezone. The ``timestampz`` datatype is an alias for a ``timestamp with time zone``. The ``time`` and ``timestamp`` datatypes can also be specified with a precision of 0-6 digits of resolution for the seconds. The maximum precision is 1 microsecond.
+
+{{% notice note %}}
+It should be noted that Oracle's date datatype is different than the PostgreSQL date datatype. An Oracle date is most equivalent to the PostgreSQL ``timestamp(0)`` datatype.
+{{% /notice %}}
+{{% /expand%}}
+
+{{%expand "4. Other datatypes" %}}
+You can read more about all of the PostgreSQL data types [here](https://www.postgresql.org/docs/11/datatype.html) .
+
+PostgreSQL has a very rich and extensible set of data types. For example, PostgreSQL has a useful set of [JSON-specific datatypes](https://www.postgresql.org/docs/11/datatype-json.html)  ``json`` and ``jsonb``.
+
+
+{{% /expand%}}
 
  **Congratulations!**
 
