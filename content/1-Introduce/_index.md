@@ -9,6 +9,7 @@ pre : " <b> 1. </b> "
 
 Amazon RDS for PostgreSQL gives you access to the capabilities of the familiar PostgreSQL database engine. This means that the code, applications, and tools you already use today with your existing databases can be used with Amazon RDS. Amazon RDS for PostgreSQL currently supports PostgreSQL 9.6, 10, 11, 12, 13, 14, and 15. With [Trusted Language Extensions (TLE) for PostgreSQL](https://aws.amazon.com/rds/postgresql/features/), you can build high performance extensions and safely run them on Amazon RDS using popular trusted languages without needing AWS to certify code.
 
+ ![intro](/images/1/2.png)
 By using AWS RDS PostgreSQL, you will get the following benefit below:
 - Easier, managed deployments
 - Fast, predictable storage
