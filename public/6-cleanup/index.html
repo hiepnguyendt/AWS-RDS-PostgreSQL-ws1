@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Clean up resources :: AWS System Manager</title>
+    <title>Clean up resources :: AWS RDS PostgreSQL</title>
 
     
-    <link href="/css/nucleus.css?1694700128" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1694700128" rel="stylesheet">
-    <link href="/css/hybrid.css?1694700128" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1694700128" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1694700128" rel="stylesheet">
-    <link href="/css/auto-complete.css?1694700128" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1694700128" rel="stylesheet">
-    <link href="/css/theme.css?1694700128" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1694700128" rel="stylesheet">
+    <link href="/css/nucleus.css?1696781237" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1696781237" rel="stylesheet">
+    <link href="/css/hybrid.css?1696781237" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1696781237" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1696781237" rel="stylesheet">
+    <link href="/css/auto-complete.css?1696781237" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1696781237" rel="stylesheet">
+    <link href="/css/theme.css?1696781237" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1696781237" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1694700128" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1696781237" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1694700128"></script>
+    <script src="/js/jquery-3.3.1.min.js?1696781237"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1694700128"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1694700128"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1696781237"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1696781237"></script>
 <script type="text/javascript">
     
         var baseurl = "";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1694700128"></script>
+<script type="text/javascript" src="/js/search.js?1696781237"></script>
 
     
   </div>
@@ -108,13 +108,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/" title="Start with PostgreSQL" class="dd-item 
+    <li data-nav-id="/2-preparation/" title="Preparation Step" class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/">
-           <b> 2. </b> Start with PostgreSQL
+      <a href="/2-preparation/">
+           <b> 2. </b> Preparation Step
           
             <i class="fas fa-check read-icon"></i>
           
@@ -139,13 +139,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/2-1-pgadmin/" title="pgAdmin4" class="dd-item 
+    <li data-nav-id="/2-preparation/2-1-createvpc/" title="Create a VPC" class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/2-1-pgadmin/">
-           <b> 2.1. </b> pgAdmin4
+      <a href="/2-preparation/2-1-createvpc/">
+           <b> 2.1. </b> Create a VPC
           
             <i class="fas fa-check read-icon"></i>
           
@@ -167,13 +167,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/2-2-databaseschemas/" title="Database and Schemas" class="dd-item 
+    <li data-nav-id="/2-preparation/2-2-createec2sg/" title="Create EC2 Security Group" class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/2-2-databaseschemas/">
-           <b> 2.2. </b> Database and Schemas
+      <a href="/2-preparation/2-2-createec2sg/">
+           <b> 2.2. </b> Create EC2 Security Group
           
             <i class="fas fa-check read-icon"></i>
           
@@ -195,13 +195,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/2-3-tablesdatatypes/" title="Tables and Datatypes" class="dd-item 
+    <li data-nav-id="/2-preparation/2-3-createrdssg/" title="Create RDS Security Group" class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/2-3-tablesdatatypes/">
-           <b> 2.3. </b> Tables and Datatypes
+      <a href="/2-preparation/2-3-createrdssg/">
+           <b> 2.3. </b> Create RDS Security Group
           
             <i class="fas fa-check read-icon"></i>
           
@@ -223,13 +223,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/2-4-basicdml/" title="Basic DML (Data Manipulation Language)" class="dd-item 
+    <li data-nav-id="/2-preparation/2-4-createdbsubnetgroup/" title="Create DB Subnet group" class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/2-4-basicdml/">
-           <b> 2.4. </b> Basic DML (Data Manipulation Language)
+      <a href="/2-preparation/2-4-createdbsubnetgroup/">
+           <b> 2.4. </b> Create DB Subnet group
           
             <i class="fas fa-check read-icon"></i>
           
@@ -251,13 +251,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/2-5-rolesusers/" title="Roles and Users" class="dd-item 
+    <li data-nav-id="/2-preparation/2-5-createec2appsv/" title="Create EC2 instance for app server" class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/2-5-rolesusers/">
-           <b> 2.5. </b> Roles and Users
+      <a href="/2-preparation/2-5-createec2appsv/">
+           <b> 2.5. </b> Create EC2 instance for app server
           
             <i class="fas fa-check read-icon"></i>
           
@@ -279,13 +279,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/2-6-catalodatadictonary/" title="Catalog and Data dictionary" class="dd-item 
+    <li data-nav-id="/2-preparation/2-6-createec2bastionhost/" title="Create bastion host EC2 instance " class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/2-6-catalodatadictonary/">
-           <b> 2.6. </b> Catalog and Data dictionary
+      <a href="/2-preparation/2-6-createec2bastionhost/">
+           <b> 2.6. </b> Create bastion host EC2 instance 
           
             <i class="fas fa-check read-icon"></i>
           
@@ -307,13 +307,13 @@
  
   
     
-    <li data-nav-id="/2-startwithpostgresql/2-7-sessionparameters/" title="Session parameters" class="dd-item 
+    <li data-nav-id="/2-preparation/2-7-createrdsdb/" title="Create RDS PostgreSQL DB" class="dd-item 
         
         
         
         ">
-      <a href="/2-startwithpostgresql/2-7-sessionparameters/">
-           <b> 2.7. </b> Session parameters
+      <a href="/2-preparation/2-7-createrdsdb/">
+           <b> 2.7. </b> Create RDS PostgreSQL DB
           
             <i class="fas fa-check read-icon"></i>
           
@@ -342,13 +342,13 @@
  
   
     
-    <li data-nav-id="/3-createrdspostgresql/" title="Create RDS PostgreSQL Database Instance" class="dd-item 
+    <li data-nav-id="/3-startwithpostgresql/" title="Start with PostgreSQL" class="dd-item 
         
         
         
         ">
-      <a href="/3-createrdspostgresql/">
-           <b> 3. </b> Create RDS PostgreSQL Database Instance
+      <a href="/3-startwithpostgresql/">
+           <b> 3. </b> Start with PostgreSQL
           
             <i class="fas fa-check read-icon"></i>
           
@@ -373,13 +373,13 @@
  
   
     
-    <li data-nav-id="/3-createrdspostgresql/3-1-createdbinstance/" title="Create DB instane" class="dd-item 
+    <li data-nav-id="/3-startwithpostgresql/3-1-pgadmin/" title="pgAdmin4" class="dd-item 
         
         
         
         ">
-      <a href="/3-createrdspostgresql/3-1-createdbinstance/">
-           <b> 3.1. </b> Create DB instane
+      <a href="/3-startwithpostgresql/3-1-pgadmin/">
+           <b> 3.1. </b> pgAdmin4
           
             <i class="fas fa-check read-icon"></i>
           
@@ -401,13 +401,13 @@
  
   
     
-    <li data-nav-id="/3-createrdspostgresql/3-2-retrievebdinstancendpoint/" title="Retrieve DB instance endpoint" class="dd-item 
+    <li data-nav-id="/3-startwithpostgresql/3-2-databaseschemas/" title="Database and Schemas" class="dd-item 
         
         
         
         ">
-      <a href="/3-createrdspostgresql/3-2-retrievebdinstancendpoint/">
-           <b> 3.2. </b> Retrieve DB instance endpoint
+      <a href="/3-startwithpostgresql/3-2-databaseschemas/">
+           <b> 3.2. </b> Database and Schemas
           
             <i class="fas fa-check read-icon"></i>
           
@@ -429,13 +429,125 @@
  
   
     
-    <li data-nav-id="/3-createrdspostgresql/3-3-storeaccountinawssms/" title="Password management with Amazon RDS and AWS Secrets Manager" class="dd-item 
+    <li data-nav-id="/3-startwithpostgresql/3-3-tablesdatatypes/" title="Tables and Datatypes" class="dd-item 
         
         
         
         ">
-      <a href="/3-createrdspostgresql/3-3-storeaccountinawssms/">
-           <b> 3.3. </b> Password management with Amazon RDS and AWS Secrets Manager
+      <a href="/3-startwithpostgresql/3-3-tablesdatatypes/">
+           <b> 3.3. </b> Tables and Datatypes
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-startwithpostgresql/3-4-basicdml/" title="Basic DML (Data Manipulation Language)" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/3-startwithpostgresql/3-4-basicdml/">
+           <b> 3.4. </b> Basic DML (Data Manipulation Language)
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-startwithpostgresql/3-5-rolesusers/" title="Roles and Users" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/3-startwithpostgresql/3-5-rolesusers/">
+           <b> 3.5. </b> Roles and Users
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-startwithpostgresql/3-6-catalodatadictonary/" title="Catalog and Data dictionary" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/3-startwithpostgresql/3-6-catalodatadictonary/">
+           <b> 3.6. </b> Catalog and Data dictionary
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/3-startwithpostgresql/3-7-sessionparameters/" title="Session parameters" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/3-startwithpostgresql/3-7-sessionparameters/">
+           <b> 3.7. </b> Session parameters
           
             <i class="fas fa-check read-icon"></i>
           
@@ -464,13 +576,13 @@
  
   
     
-    <li data-nav-id="/4-connectopgadmin4/" title="Connect to pgAdmin4" class="dd-item 
+    <li data-nav-id="/4-connectordspostgresql/" title="Connect to RDS PostgreSQL AWS " class="dd-item 
         
         
         
         ">
-      <a href="/4-connectopgadmin4/">
-           <b> 4. </b> Connect to pgAdmin4
+      <a href="/4-connectordspostgresql/">
+           <b> 4. </b> Connect to RDS PostgreSQL AWS 
           
             <i class="fas fa-check read-icon"></i>
           
@@ -495,13 +607,13 @@
  
   
     
-    <li data-nav-id="/4-connectopgadmin4/4-1-configuretheclient/" title="Configure the database client" class="dd-item 
+    <li data-nav-id="/4-connectordspostgresql/4-1-usingpgadmin4/" title="Using pgAdmin4 to connect to RDS PostgreSQL" class="dd-item 
         
         
         
         ">
-      <a href="/4-connectopgadmin4/4-1-configuretheclient/">
-           <b> 4.1. </b> Configure the database client
+      <a href="/4-connectordspostgresql/4-1-usingpgadmin4/">
+           <b> 4.1. </b> Using pgAdmin4 to connect to RDS PostgreSQL
           
             <i class="fas fa-check read-icon"></i>
           
@@ -523,13 +635,41 @@
  
   
     
-    <li data-nav-id="/4-connectopgadmin4/4-2-queryingdata/" title="Querying Data" class="dd-item 
+    <li data-nav-id="/4-connectordspostgresql/4-2-usingpsql/" title="Using EC2 instance to connect to RDS PostgreSQL" class="dd-item 
         
         
         
         ">
-      <a href="/4-connectopgadmin4/4-2-queryingdata/">
-           <b> 4.2. </b> Querying Data
+      <a href="/4-connectordspostgresql/4-2-usingpsql/">
+           <b> 4.2 </b> Using EC2 instance to connect to RDS PostgreSQL
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-connectordspostgresql/4-3-queryingdata/" title="Querying Data" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/4-connectordspostgresql/4-3-queryingdata/">
+           <b> 4.3. </b> Querying Data
           
             <i class="fas fa-check read-icon"></i>
           
@@ -1021,6 +1161,70 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1038,6 +1242,22 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -1129,19 +1349,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1694700128"></script>
-    <script src="/js/perfect-scrollbar.min.js?1694700128"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1694700128"></script>
-    <script src="/js/jquery.sticky.js?1694700128"></script>
-    <script src="/js/featherlight.min.js?1694700128"></script>
-    <script src="/js/highlight.pack.js?1694700128"></script>
+    <script src="/js/clipboard.min.js?1696781237"></script>
+    <script src="/js/perfect-scrollbar.min.js?1696781237"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1696781237"></script>
+    <script src="/js/jquery.sticky.js?1696781237"></script>
+    <script src="/js/featherlight.min.js?1696781237"></script>
+    <script src="/js/highlight.pack.js?1696781237"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1694700128"></script>
-    <script src="/js/learn.js?1694700128"></script>
-    <script src="/js/hugo-learn.js?1694700128"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1696781237"></script>
+    <script src="/js/learn.js?1696781237"></script>
+    <script src="/js/hugo-learn.js?1696781237"></script>
 
-    <link href="/mermaid/mermaid.css?1694700128" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1694700128"></script>
+    <link href="/mermaid/mermaid.css?1696781237" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1696781237"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

@@ -2,6 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/vi/2-preparation/2-1-createvpc/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/2-1-createvpc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/2-1-createvpc/"
+                />
+  </url><url>
+    <loc>/vi/2-preparation/2-2-createec2sg/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/2-2-createec2sg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/2-2-createec2sg/"
+                />
+  </url><url>
+    <loc>/vi/2-preparation/2-3-createrdssg/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/2-3-createrdssg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/2-3-createrdssg/"
+                />
+  </url><url>
+    <loc>/vi/2-preparation/2-4-createdbsubnetgroup/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/2-4-createdbsubnetgroup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/2-4-createdbsubnetgroup/"
+                />
+  </url><url>
+    <loc>/vi/2-preparation/2-5-createec2appsv/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/2-5-createec2appsv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/2-5-createec2appsv/"
+                />
+  </url><url>
+    <loc>/vi/2-preparation/2-6-createec2bastionhost/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/2-6-createec2bastionhost/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/2-6-createec2bastionhost/"
+                />
+  </url><url>
+    <loc>/vi/2-preparation/2-7-createrdsdb/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/2-7-createrdsdb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/2-7-createrdsdb/"
+                />
+  </url><url>
+    <loc>/vi/2-preparation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/2-preparation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="/vi/2-preparation/"
+                />
+  </url><url>
     <loc>/vi/</loc>
     <xhtml:link
                 rel="alternate"
@@ -14,28 +110,16 @@
                 href="/vi/"
                 />
   </url><url>
-    <loc>/vi/4-connectopgadmin4/4-1-configuretheclient/</loc>
+    <loc>/vi/4-connectordspostgresql/4-1-usingpgadmin4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-connectopgadmin4/4-1-configuretheclient/"
+                href="/4-connectordspostgresql/4-1-usingpgadmin4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-connectopgadmin4/4-1-configuretheclient/"
-                />
-  </url><url>
-    <loc>/vi/3-createrdspostgresql/3-1-createdbinstance/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/3-createrdspostgresql/3-1-createdbinstance/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/3-createrdspostgresql/3-1-createdbinstance/"
+                href="/vi/4-connectordspostgresql/4-1-usingpgadmin4/"
                 />
   </url><url>
     <loc>/vi/1-introduce/</loc>
@@ -50,124 +134,100 @@
                 href="/vi/1-introduce/"
                 />
   </url><url>
-    <loc>/vi/2-startwithpostgresql/2-1-pgadmin/</loc>
+    <loc>/vi/3-startwithpostgresql/3-1-pgadmin/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-startwithpostgresql/2-1-pgadmin/"
+                href="/3-startwithpostgresql/3-1-pgadmin/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-startwithpostgresql/2-1-pgadmin/"
+                href="/vi/3-startwithpostgresql/3-1-pgadmin/"
                 />
   </url><url>
-    <loc>/vi/2-startwithpostgresql/2-2-databaseschemas/</loc>
+    <loc>/vi/3-startwithpostgresql/3-2-databaseschemas/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-startwithpostgresql/2-2-databaseschemas/"
+                href="/3-startwithpostgresql/3-2-databaseschemas/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-startwithpostgresql/2-2-databaseschemas/"
+                href="/vi/3-startwithpostgresql/3-2-databaseschemas/"
                 />
   </url><url>
-    <loc>/vi/3-createrdspostgresql/3-2-retrievebdinstancendpoint/</loc>
+    <loc>/vi/3-startwithpostgresql/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-createrdspostgresql/3-2-retrievebdinstancendpoint/"
+                href="/3-startwithpostgresql/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-createrdspostgresql/3-2-retrievebdinstancendpoint/"
+                href="/vi/3-startwithpostgresql/"
                 />
   </url><url>
-    <loc>/vi/2-startwithpostgresql/</loc>
+    <loc>/vi/4-connectordspostgresql/4-3-queryingdata/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-startwithpostgresql/"
+                href="/4-connectordspostgresql/4-3-queryingdata/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-startwithpostgresql/"
+                href="/vi/4-connectordspostgresql/4-3-queryingdata/"
                 />
   </url><url>
-    <loc>/vi/4-connectopgadmin4/4-2-queryingdata/</loc>
+    <loc>/vi/3-startwithpostgresql/3-3-tablesdatatypes/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-connectopgadmin4/4-2-queryingdata/"
+                href="/3-startwithpostgresql/3-3-tablesdatatypes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-connectopgadmin4/4-2-queryingdata/"
+                href="/vi/3-startwithpostgresql/3-3-tablesdatatypes/"
                 />
   </url><url>
-    <loc>/vi/3-createrdspostgresql/</loc>
+    <loc>/vi/3-startwithpostgresql/3-4-basicdml/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-createrdspostgresql/"
+                href="/3-startwithpostgresql/3-4-basicdml/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-createrdspostgresql/"
+                href="/vi/3-startwithpostgresql/3-4-basicdml/"
                 />
   </url><url>
-    <loc>/vi/3-createrdspostgresql/3-3-storeaccountinawssms/</loc>
+    <loc>/vi/4-connectordspostgresql/4-2-usingpsql/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-createrdspostgresql/3-3-storeaccountinawssms/"
+                href="/4-connectordspostgresql/4-2-usingpsql/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-createrdspostgresql/3-3-storeaccountinawssms/"
+                href="/vi/4-connectordspostgresql/4-2-usingpsql/"
                 />
   </url><url>
-    <loc>/vi/2-startwithpostgresql/2-3-tablesdatatypes/</loc>
+    <loc>/vi/4-connectordspostgresql/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-startwithpostgresql/2-3-tablesdatatypes/"
+                href="/4-connectordspostgresql/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-startwithpostgresql/2-3-tablesdatatypes/"
-                />
-  </url><url>
-    <loc>/vi/2-startwithpostgresql/2-4-basicdml/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/2-startwithpostgresql/2-4-basicdml/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/2-startwithpostgresql/2-4-basicdml/"
-                />
-  </url><url>
-    <loc>/vi/4-connectopgadmin4/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/4-connectopgadmin4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/4-connectopgadmin4/"
+                href="/vi/4-connectordspostgresql/"
                 />
   </url><url>
     <loc>/vi/5-helpfulresources/</loc>
@@ -182,28 +242,28 @@
                 href="/vi/5-helpfulresources/"
                 />
   </url><url>
-    <loc>/vi/2-startwithpostgresql/2-5-rolesusers/</loc>
+    <loc>/vi/3-startwithpostgresql/3-5-rolesusers/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-startwithpostgresql/2-5-rolesusers/"
+                href="/3-startwithpostgresql/3-5-rolesusers/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-startwithpostgresql/2-5-rolesusers/"
+                href="/vi/3-startwithpostgresql/3-5-rolesusers/"
                 />
   </url><url>
-    <loc>/vi/2-startwithpostgresql/2-6-catalodatadictonary/</loc>
+    <loc>/vi/3-startwithpostgresql/3-6-catalodatadictonary/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-startwithpostgresql/2-6-catalodatadictonary/"
+                href="/3-startwithpostgresql/3-6-catalodatadictonary/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-startwithpostgresql/2-6-catalodatadictonary/"
+                href="/vi/3-startwithpostgresql/3-6-catalodatadictonary/"
                 />
   </url><url>
     <loc>/vi/6-cleanup/</loc>
@@ -218,16 +278,16 @@
                 href="/vi/6-cleanup/"
                 />
   </url><url>
-    <loc>/vi/2-startwithpostgresql/2-7-sessionparameters/</loc>
+    <loc>/vi/3-startwithpostgresql/3-7-sessionparameters/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-startwithpostgresql/2-7-sessionparameters/"
+                href="/3-startwithpostgresql/3-7-sessionparameters/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-startwithpostgresql/2-7-sessionparameters/"
+                href="/vi/3-startwithpostgresql/3-7-sessionparameters/"
                 />
   </url><url>
     <loc>/vi/categories/</loc>
